@@ -10,7 +10,7 @@
 
 #define MAX_DELAY static_cast<size_t>(SAMPLE_RATE * 5.f)
 #define MIN_DELAY static_cast<size_t>(256)
-#define BLOCK_SIZE static_cast<size_t>(4)
+#define BLOCK_SIZE static_cast<size_t>(32)
 #define ATTENUATION 0.7f
 
 #define MIN_CUTOFF 100.0f
